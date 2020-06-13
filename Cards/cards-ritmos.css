@@ -19,6 +19,22 @@ body{
     }
 }
 
+@media screen and (min-width: 580px){
+    main .cards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    main h1{
+        font-size: 1.9rem;
+    }
+    main .cards .card h2{
+        padding-top: 0.5rem;
+        font-size: 1.5rem;
+    }
+}
+
 
 main .cards .card{
     background-color: rgba(168, 165, 165, 0.5);
@@ -43,6 +59,12 @@ main .cards .card p{
     margin-top: 13rem;
     text-shadow: 1px 1px 1px black;
 }
+main .cards .card:hover p{
+    background-color: rgba(49, 49, 49, 0.5);
+    transition: 1s;
+    padding: 0.5rem;
+}
+
 
 main .cards .card hr.linhaTitulo{
     border-top: 2px solid white;
