@@ -4,16 +4,21 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@media screen and (min-width: 300px){
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main h1{
+        font-size: 1.9rem;
+    }
+    main .cards .card h2{
+        padding-top: 1.5rem;
+        font-size: 1.5rem;
+    }
 }
 
-main .cards{
-    box-sizing: content-box;
-    display: flex;
-}
 
 main .cards .card{
     background-color: rgba(168, 165, 165, 0.5);
