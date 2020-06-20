@@ -1,9 +1,6 @@
 *{
     margin: 0px;
     padding: 0px;
-}
-
-body{
     font-family: cursive, sans-serif;
 }
 
@@ -18,7 +15,7 @@ main{
 }
 
 .card{
-    background-color: #8d8d8db4;
+    background-color: #c5c2c2;
     padding: 2rem;
     margin-top: 5rem;
     border-radius: 10px;
@@ -39,8 +36,14 @@ main{
 }
 
 .card .btnAcessar{
-    padding: 0.5rem;
-    
+    padding: 0.4rem;
+    border-radius: 5px;
+}
+
+.card .btnAcessar:hover{
+    background-color: #797979;
+    color: white;
+    transition: .5s;
 }
 
 
